@@ -1,0 +1,40 @@
+h1 {
+	color: rgb(237, 5, 148);
+	font-family: papyrus;
+	font-size: 5vw;
+	border: 5px solid red;
+	border-color: burlywood;
+	padding: 100px;
+	background-color: khaki;
+}
+#ingredients {
+	color: white;
+	background-color: black;
+} 
+.header {
+	background-color: azure;
+	color: khaki;
+}
+body {
+	background-image: url("https://flouringkitchen.com/wp-content/uploads/2023/07/BW1A4089-2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+p {
+	font-weight: 900;
+}
+* {
+  text-align: center;
+}
+ol, ul {
+	list-style: square;
+}
+
+img {
+	height: 20vw;
+}
+
+a {
+	text-decoration: none;
+}
