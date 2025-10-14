@@ -1,0 +1,59 @@
+/* colors
+- 565264
+- 706677
+- A6808C
+- CCB7AE
+- D6CFCB
+*/
+
+body {
+	margin: 0px;
+	background-color: #D6CFCB;
+}
+
+#header {
+	font-size: 60px;
+	color: #565264;
+	background-color: #A6808C;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+	border: 10px double #565264;
+}
+
+a {
+	text-decoration: none;
+	color: #565264;
+}
+
+ul {
+	list-style: none;
+}
+
+.recipes {
+	font-size: 20px;
+	border: 10px double #565264;
+	background-color: #A6808C;
+	border-radius: 6px;
+	width: 200px;
+	margin: 10px;
+	text-align: center;
+	padding: 10px;
+}
+
+.recipes:hover {
+	background-color: pink;
+}
+
+#parent {
+	margin: auto;
+	width: fit-content;
+}
+
+.names {
+	font-size: 40px;
+}
+
+.whole {
+	padding: 10px;
+}
