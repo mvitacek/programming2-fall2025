@@ -1,0 +1,126 @@
+/* 
+#143109 (dark green)
+#AAAE7F (sage)
+#D0D6B3 (light green)
+#F7F7F7 (white)
+#EFEFEF (light gray)
+
+or 
+#1B2021 (black)
+#51513D (brown/green)
+#A6A867 (green)
+#E3DC95 (light yellow/green)
+#E3DCC2 (beige)
+*/
+
+body {
+	margin: 0px;
+}
+
+p {
+}
+/*---------------------*/
+/* start of top section */
+
+#topbar {
+	background-color: #AAAE7F;
+	color: #143109;
+	margin: 0px;
+}
+
+#text1 {
+	margin: 0px;
+	padding: 5px;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #D0D6B3;
+	padding: 10px;
+	margin: 0px;
+}
+
+#logo {
+	width: 100px;
+}
+
+#title {
+	font-family: Barriecito;
+	color: #143109;
+}
+
+/* menu */
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* end of top section */
+/*---------------------*/
+
+/*---------------------*/
+/* start of bottom section */
+
+#footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #A6A867;
+	padding: 10px;
+	margin: 0px;
+}
+
+#contact {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#bottombar {
+	background-color: #143109;
+	margin: 0px;
+	color: #F7F7F7;
+}
+/* bottom of top section */
+/*---------------------*/
