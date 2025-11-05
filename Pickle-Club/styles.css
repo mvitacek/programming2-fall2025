@@ -15,6 +15,9 @@ or
 
 body {
 	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
 }
 
 p {
@@ -24,7 +27,7 @@ p {
 
 #topbar {
 	background-color: #AAAE7F;
-	color: #143109;
+	color: #AAAE7F;
 	margin: 0px;
 }
 
@@ -39,7 +42,7 @@ p {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #D0D6B3;
-	padding: 10px;
+	padding: 25px;
 	margin: 0px;
 }
 
@@ -50,13 +53,15 @@ p {
 #title {
 	font-family: Barriecito;
 	color: #143109;
+	font-size: 50px;
+	margin: 0px;
 }
 
 /* menu */
 /* Dropdown Button */
 .dropbtn {
-  background-color: #04AA6D;
-  color: white;
+  background-color: transparent;
+  color: #143109;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -76,6 +81,8 @@ p {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  right: 40px;
+  top: 15px;
 }
 
 /* Links inside the dropdown */
@@ -93,9 +100,38 @@ p {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/*.dropdown:hover .dropbtn {background-color: #3e8e41;}*/
 
 /* end of top section */
+/*---------------------*/
+
+/*---------------------*/
+/* start of middle section */
+
+.middle {
+	display: flex;
+	/*min-width: 0;*/
+	align-items: center;
+}
+
+#mission {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 300px;
+	font-size: 1.5vw;
+}
+
+#homeimg {
+	object-fit: contain;
+	display: flex;
+	padding: 15px;
+	flex: 1 2 700px;
+	min-width: 0px;
+}
+
+
+
+/* end of middle section */
 /*---------------------*/
 
 /*---------------------*/
@@ -121,6 +157,20 @@ p {
 	background-color: #143109;
 	margin: 0px;
 	color: #F7F7F7;
+	text-align: center;
+	padding: 5px;
 }
+
+#bottomtitle {
+	padding: 0px;
+	margin: 0px;
+}
+
+#connect {
+	padding: 0px;
+	margin: 0px;
+}
+
+
 /* bottom of top section */
 /*---------------------*/

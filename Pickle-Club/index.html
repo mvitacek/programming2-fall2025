@@ -9,6 +9,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div class="top">
@@ -19,23 +21,31 @@
 			<img src="images/logo.png" id="logo">
 			<h1 id="title">Parker Pickle Club</h1>
 			<div class="dropdown">
-				<button class="dropbtn">Menu</button>
+				<button class="dropbtn"><i class="fa fa-bars fa-lg"></i></button>
   				<div class="dropdown-content">
-    				<a href="#">Home</a>
-    				<a href="#">Leadership</a>
-    				<a href="#">Events</a>
-    				<a href="#">Pickle Gallery</a>
+    				<a href="index.html">Home</a>
+    				<a href="pages/leadership.html">Leadership</a>
+    				<a href="pages/events.html">Events</a>
+    				<a href="pages/gallery.html">Pickle Gallery</a>
   				</div>
 			</div>
 		</div>
 	</div>
 	<div class="middle">
-		<!-- add content -->
+		<img src="images/pickle2.jpg" id="homeimg">
+		<div id="mission">
+			<h1>Our Mission:</h1>
+			<div id="text2">
+				<p>At the Pickle Club, we take pickles seriously — but not too seriously! Our mission is to bring people together through the shared joy of brine, crunch, and curiosity. Whether you’re a dill devotee, a sweet pickle fan, or a newcomer still deciding where you stand in the great cucumber debate, you’ll find a home here.<p>
+				<p>We celebrate all things pickled — from cucumbers to carrots, kimchi to kraut — and we’re dedicated to learning, laughing, and tasting our way through every tangy adventure. Through events, collaborations, and maybe the occasional pickle-themed party, we’re spreading the message that good pickles (and good company) make life a little zestier.</p>
+				<p>Because when life gets tough, we say: just keep it crisp.</p>
+			</div>
+		</div>
 	</div>
 	<div class="bottom">
 		<div id="footer">
 			<h1 id="bottomtitle">Parker Pickle Club</h1>
-			<h2>Connect with us!</h2>
+			<h2 id="connect">Connect with us!</h2>
 			<div>
 				<ul id="contact">
 					<li>email@fwparker.org</li>
@@ -44,7 +54,7 @@
 					<li>email@fwparker.org</li>
 				</ul>
 			</div>
-			<div id="socialmedia">insta
+			<div id="socialmedia"><button class="dropbtn"><i class="fa-brands fa-instagram"></i></button>
 			</div>
 		</div>
 		<div id="bottombar">
