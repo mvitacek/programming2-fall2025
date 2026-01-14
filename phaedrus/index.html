@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Phaedrus</title>
+	<link rel="stylesheet" href="styles.css">
+	<!--Icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section class="header">
+		<div class="gallery-container">
+        	<div class="gallery-images">
+            	<!-- Add your images here -->
+            	<img src="images/banner1.png" alt="Image 1" class="slide active">
+            	<img src="images/banner2.png" alt="Image 2" class="slide">
+            	<img src="images/banner3.png" alt="Image 3" class="slide">
+            	<img src="images/banner4.png" alt="Image 4" class="slide">
+            	<img src="images/banner5.png" alt="Image 3" class="slide">
+            	<img src="images/banner6.png" alt="Image 4" class="slide">
+        	</div>
+        	<div class="text-overlay">
+                <h1 id="banner-text">Phaedrus</h1>
+                <div class="banner-buttons">
+                	<a href="pages/gallery.html" target="_blank" class="banner-button1">Gallery</a>
+                	<a href="pages/submit.html" target="_blank" class="banner-button2">Submit</a>
+            	</div>
+            </div>
+        <!-- Navigation buttons -->
+        	<a class="nav-btn prev" onclick="plusSlides(-1)">&#10094;</a>
+        	<a class="nav-btn next" onclick="plusSlides(1)">&#10095;</a>
+    	</div>
+		<div id="navigation">
+			<ul id="nav-bar">
+				<li><a href="index.html" target="_blank">Home</a></li>
+				<li><a href="pages/gallery.html" target="_blank">Gallery</a></li>
+				<li><a href="pages/leadership.html" target="_blank">Leadership</a></li>
+				<li><a href="pages/spotlight.html" target="_blank">Spotlight</a></li>
+				<li><a href="pages/submit.html" target="_blank">Submit</a></li>
+			</ul>
+		</div>
+	</section>
+	<section class="middle">
+		<div id="about">
+			<div id="about-inner">
+				<h1>About Phaedrus:</h1>
+				<h2>Phaedrus is focused exclusively on art and writing, bringing together visual works and creative texts in one space. It showcases artists and writers through features, essays, poetry, and experimental pieces, creating a dialogue between image and word.</h2>
+				<p>Phaedrus is currently ran by four EICs: Delilah Davis, Ava Lin, B Hirsch, and Wallace Davis. With the help of Ms. Abood and Ms. Silva, Phaedrus is commited to producing a high quality magazine for the student body. There are many ways to get involved with Phaedrus such as joining the editorial board or submitting works to the magazine. Whether it is something you made in your free time or in an art class, Phaedrus will take it to display the creativity of Parker students.</p>
+			</div>
+		</div>
+		<div id="submit-content">
+			<h1>What to sumbit to Phaedrus:</h1>
+			<div id="content-container">
+				<div>
+					<ul>
+						<li>Paintings (watercolor, oil, acrylic, etc)</li>
+						<li>Drawings (sketches, doodles, finished pieces)</li>
+						<li>Photography</li>
+						<li>Sculptures (clay, metal, wood, etc)</li>
+						<li>Fashion/Clothing</li>
+						<li>Ceramics</li>
+						<li>Digital Art</li>
+						<li>Poems</li>
+						<li>Short Stories</li>
+					</ul>
+				</div>
+				<img src="images/collage.png">
+			</div>
+		</div>
+	
+	</section>
+	
+	<section class="footer">
+		<div id="bottom">
+			<h1><a href="pages/submit.html" target="_blank">Submit to Phaedrus today!<a></h1>
+			<div id="contact">
+				<p>phaedrus@fwparker.org</p>
+				<div id="icons">
+					<a href="https://www.instagram.com/phaedrusmagazine?igsh=Nng2ZGxoN210dHVz" target="_blank"><i class="fa fa-instagram"></i></a>
+					<a><i class="fa fa-envelope"></i></a>
+				</div>
+			</div>
+		</div>
+		<div id="bottom-bar">
+			<p>© 2013 Francis W. Parker Phaedrus | Chicago, IL</p>
+		</div>
+	</section>
+	<script src="script.js"></script>
+</body>
+</html>
